@@ -2,15 +2,20 @@ import React, { useState } from "react";
 import "./Dictionary.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import axios from "axios";
 
 
 export default function Dictionary() {
 const [query, setQuery] = useState("null");
 
-
+  function handleSearch(response) {
+    console.log(response);
+  }
+  
   function search(event) {
     event.preventDefault();
-    alert(`Searching for ${query}`);
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${query}`;
+    axios.get(apiUrl).then(handleSearch);
   }
 
   function handleQuery(event) {
