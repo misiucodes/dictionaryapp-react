@@ -40,7 +40,7 @@ const [results, setResponse] = useState(null);
          <FontAwesomeIcon icon={faMagnifyingGlass} className="magnifying-icon"/>
       </form>
       <Results results={results} />
-      <small>This was coded by Michelle Tran and is open-source on <a href="https://github.com/misiucodes/dictionaryapp-react" target="_blank">Github</a> ♡</small>
+      <small>This was coded by Michelle Tran and is open-source on <a href="https://github.com/misiucodes/dictionaryapp-react" target="_blank" rel="noreferrer">Github</a> ♡</small>
     </div>
   );
 }
