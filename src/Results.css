@@ -1,0 +1,18 @@
+div.results-container {
+  display: block;
+  margin: 0 auto;
+  background-color: white !important;
+  border-radius: 5px !important;
+  max-width: 60%;
+  margin-top: 3%;
+  text-align: left;
+  padding: 25px;
+}
+
+h1.word {
+  text-transform: capitalize;
+  color: red;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}

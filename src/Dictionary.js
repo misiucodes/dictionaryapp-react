@@ -3,15 +3,17 @@ import "./Dictionary.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import axios from "axios";
+import Results from "./Results";
 
 
 export default function Dictionary() {
-const [query, setQuery] = useState("null");
+const [query, setQuery] = useState("");
+const [results, setResponse] = useState(null);
 
   function handleSearch(response) {
-    console.log(response);
+    setResponse(response.data[0]);
   }
-  
+
   function search(event) {
     event.preventDefault();
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${query}`;
@@ -37,6 +39,7 @@ const [query, setQuery] = useState("null");
           />
          <FontAwesomeIcon icon={faMagnifyingGlass} className="magnifying-icon"/>
       </form>
+      <Results results={results} />
     </div>
   );
 }
