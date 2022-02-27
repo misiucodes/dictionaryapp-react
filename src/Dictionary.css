@@ -33,3 +33,11 @@ input[type="search"]::-webkit-search-results-decoration {
   position: relative;
   color: rgba(228, 44, 32);
 }
+
+small {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
