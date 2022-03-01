@@ -9,10 +9,10 @@ div.results-container {
   padding: 25px;
 }
 
-h1 {
+h1.word {
   text-transform: capitalize;
   color: red;
-  margin-bottom: 15px;
+  margin-bottom: 2px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
