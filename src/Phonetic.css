@@ -2,3 +2,8 @@ div.phonetic {
   margin-bottom: 20px;
   font-size: 16px;
 }
+
+button {
+  background-color: transparent;
+  border: none;
+}

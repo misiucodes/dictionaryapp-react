@@ -38,6 +38,6 @@ small {
   font-size: 10px;
   font-family: "Poppins", sans-serif;
   display: block;
-  margin: 0 auto;
   margin-top: 20px;
+  text-align: center;
 }
