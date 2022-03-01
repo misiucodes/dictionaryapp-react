@@ -7,24 +7,26 @@ export default function Results(props) {
   console.log(props.results);
   if (props.results) {
   return (
-    <div className="results-container">
-      <h1 className="word">{props.results.word}</h1>
-      {props.results.phonetics.map(function(phonetics, index) {
-        return (
-          <div key={index}>
-            <Phonetic phonetics={phonetics} />
-          </div>
+    <div className="results">
+      <section>
+        <h1 className="word">{props.results.word}</h1>
+        {props.results.phonetics.map(function(phonetics, index) {
+          return (
+            <div key={index}>
+              <Phonetic phonetics={phonetics} />
+            </div>
+          );
+        })}
+      </section>
+        {props.results.meanings.map(function (meanings, index) {
+          return (
+            <section key={index}>
+              <Meaning meanings={meanings} />
+            </section>
         );
       })}
-      {props.results.meanings.map(function (meanings, index) {
-        return (
-          <div key={index}>
-            <Meaning meanings={meanings} />
-          </div>
-        );
-      })}
-    </div>
-    );
+      </div>
+  );
   } else {
     return null;
   }
