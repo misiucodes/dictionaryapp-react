@@ -26,7 +26,7 @@ const [photos, setPhotos] = useState(null);
     axios.get(apiUrl).then(handleSearch);
 
     let pexelsApiKey= "563492ad6f917000010000010453ce8f4a0f4a199121cb5c148e3be4";
-    let pexelsApiUrl= `https://api.pexels.com/v1/search?query=${query}&per_page=9`;
+    let pexelsApiUrl= `https://api.pexels.com/v1/search?query=${query}&per_page=6`;
     let headers = { Authorization : `Bearer ${pexelsApiKey}`}; 
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   }

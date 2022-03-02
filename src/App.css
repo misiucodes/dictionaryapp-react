@@ -3,8 +3,8 @@
   height: 2000px;
 }
 
-.img-fluid {
-  max-width: 100%;
+.logo {
+  max-width: 80%;
   height: auto;
   display: block;
   margin: 0 auto;
