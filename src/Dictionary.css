@@ -41,3 +41,16 @@ small {
   margin-top: 20px;
   text-align: center;
 }
+
+span.heart {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  color: red;
+}
