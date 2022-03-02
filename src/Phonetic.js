@@ -13,7 +13,7 @@ export default function Phonetic(props) {
     <div className="Phonetic">
       <span className="phonetic">{props.phonetic[0].text}</span>
       <button onClick={handleClick}>
-        <i className="fas fa-volume-up"></i>
+          <i className="fas fa-volume-up"></i>
       </button>
       {play && (
         <ReactAudioPlayer

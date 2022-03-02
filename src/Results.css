@@ -3,8 +3,8 @@ section {
   padding: 32px;
   border-radius: 8px;
   box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.1);
-  margin: 25px auto;
-  max-width: 80%;
+  margin: 12px auto;
+  max-width: 75%;
 }
 
 h1.word {
