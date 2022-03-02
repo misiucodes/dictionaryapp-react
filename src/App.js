@@ -6,7 +6,7 @@ import logo from "./logo.png";
 function App() {
   return (
     <div className="App">
-      <img src={logo} alt="logo" className="img-fluid" width="350" />
+      <img src={logo} alt="logo" className="logo" width="350" />
       <Dictionary />
     </div>
   );

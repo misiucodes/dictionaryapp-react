@@ -48,11 +48,11 @@ const [photos, setPhotos] = useState(null);
             onChange={handleQuery}
             autoFocus="off"
           />
-         <FontAwesomeIcon icon={faMagnifyingGlass} className="magnifying-icon" onClick={search}/>
+         <FontAwesomeIcon icon={faMagnifyingGlass} className="magnifying-icon"/>
       </form>
         <Results results={results} />
         <Photos photos={photos} />
-        <small>This was coded by <a href="https://www.linkedin.com/in/michellehtran/" target="_blank" rel="noreferrer">Michelle Tran</a> and is open-source on <a href="https://github.com/misiucodes/dictionaryapp-react" target="_blank" rel="noreferrer">Github</a> <span className="heart">♡</span></small>
+        <small>This was coded by <a href="https://www.linkedin.com/in/michellehtran/" target="_blank" rel="noreferrer">Michelle Tran</a> and is open-source on <a href="https://github.com/misiucodes/dictionaryapp-react" target="_blank" rel="noreferrer">Github</a> ♡</small>
     </div>
   );
 }

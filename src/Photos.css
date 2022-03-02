@@ -1,16 +1,5 @@
 .img-fluid {
   border-radius: 14px;
-  margin: 7px 7px;
-  padding: 13px 10px;
-}
-
-.row {
-  --bs-gutter-x: -5.5rem;
-  margin-right: calc(var(--bs-gutter-x) * -0.6);
-  margin-left: calc(var(--bs-gutter-x) * -0.5);
-  margin: 0 auto;
-}
-
-.col-4 {
-  flex: 9 0 auto;
+  margin: 2px -1px;
+  padding: 8px;
 }
