@@ -1,6 +1,5 @@
-.App {
-  background-color: rgba(242, 250, 250);
-  height: 2000px;
+body {
+  background-color: rgba(242, 250, 250) !important;
 }
 
 .logo {
@@ -12,6 +11,6 @@
 
 .women-searchup {
   position: fixed;
-  right: -305px;
-  bottom: -167px;
+  right: 13px;
+  bottom: -2px;
 }

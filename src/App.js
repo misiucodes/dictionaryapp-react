@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <img src={logo} alt="logo" className="logo" width="350" />
       <Dictionary />
-      <img src={illustration} alt="look-up-illustration" className="img-fluid women-searchup" width="1000"/>
+      <img src={illustration} alt="look-up-illustration" className="img-fluid women-searchup" width="380"/>
     </div>
   );
 }
