@@ -10,7 +10,7 @@ export default function Photos(props) {
             return (
               <div className="col-3" key={index}>
                 <img 
-                  src={photo.src.tiny} 
+                  src={photo.src.landscape} 
                   alt="photos" 
                   className="img-fluid" />
               </div>

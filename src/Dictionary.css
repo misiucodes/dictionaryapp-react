@@ -1,6 +1,6 @@
 form {
   position: relative;
-  max-width: 75%;
+  max-width: 960px;
   margin: 0 auto;
   margin-top: -87px !important;
   border-radius: 5px;
@@ -14,7 +14,7 @@ form {
 
 input[type="search" i] {
   font-family: "Poppins", sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.9 rem !important;
   -webkit-appearance: none;
   text-indent: 12px;
 }

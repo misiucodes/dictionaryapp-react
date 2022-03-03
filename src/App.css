@@ -9,3 +9,9 @@
   display: block;
   margin: 0 auto;
 }
+
+.women-searchup {
+  position: fixed;
+  right: -305px;
+  bottom: -167px;
+}
